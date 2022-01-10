@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #151515;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.calculadora{
+    width: 600px;
+    height: max-content;
+    background-color: #f7f7f7;
+    margin: 100px auto;
+    display: grid;
+    gap: 50px;
+}
+
+.calText{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+
+form p{
+    font-size: 25px;
+}
+
+form div:nth-child(1n){
+    width: 500px;
+    display: grid;
+}
+
+form label:nth-child(1n){
+    font-size: 25px;
+}
+
+form input:nth-child(1n){
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+}
+
+button{
+    width: max-content;
+    font-size: 35px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: crimson;
+    color: #f7f7f7;
+}
+
+.imcInf{
+ width: 600px;
+ height: max-content;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.imcTexto{
+    font-size: 30px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 255, 255);
+}
+
+.imcTexto span{
+    width: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.imcR{
+    width: 100%;
+    height: max-content;
+    display: grid;
+}
+
+.imcR div:nth-child(1n){
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    padding: 10px 15px;
+    border-top: 2px solid #cccccc;
+}
+
+#imcValue{
+    font-size: 30px;
+    color: #dc143c;
+}
